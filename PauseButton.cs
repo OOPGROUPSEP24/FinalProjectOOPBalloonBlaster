@@ -12,7 +12,7 @@ public class PauseButton : MonoBehaviour
 
     private void Start()
     {
-        // Make sure the pause panel is hidden initially
+        
         pausePanel.SetActive(false);
 
         // Add listeners to the buttons
@@ -50,12 +50,11 @@ public class PauseButton : MonoBehaviour
     // Method to exit the game
     private void OnExitButtonClick()
     {
-        // You can either load a main menu scene or quit the game.
-        // To quit the game, use:
+       
         Debug.Log("Exiting the game...");
         Application.Quit(); // This will quit the game when running as a build.
 
-        // If you want to load a main menu scene, use this line instead:
-        // SceneManager.LoadScene("MainMenuScene");  // Replace with your main menu scene name
+       
+        // SceneManager.LoadScene("MainMenuScene");  // 
     }
 }
