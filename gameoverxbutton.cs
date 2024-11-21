@@ -7,6 +7,6 @@ public class gameoverxbutton : MonoBehaviour
 {
 public void OpenMainMenu()
 {
-    SceneManager.LoadSceneAsync("mainmenufinal"); // Use the actual name of your Main Menu scene
+    SceneManager.LoadSceneAsync("mainmenufinal"); 
 }
 }
